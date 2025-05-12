@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 from utils import open_html_file
 
-data = open_html_file('category1.html')
+data = open_html_file('contacts.html')
 
 hostName = "localhost"
 serverPort = 8080
